@@ -10,6 +10,19 @@
 
 <body>
     <h2>Bem-vindo ao jogo de Forca</h2>
+
+    <label for="dificuldade">
+        <select name="sel-dificuldade" id="sel-dificuldade">
+            <option value="facil">Fácil</option>
+            <option value="medio">Médio</option>
+            <option value="dificil">Difícil</option>
+        </select>
+        <button onclick="sortearPalavra()">Sortear Palavra</button>
+
+    </label>
+
+
+
     <img class="img-forca" src="imagens/1.png" alt="forca vazia">
     <img class="img-forca" src="imagens/2.png" alt="forca com cabeça">
     <img class="img-forca" src="imagens/3.png" alt="forca com cabeça e tronco">
@@ -17,7 +30,7 @@
     <img class="img-forca" src="imagens/5.png" alt="forca com cabeça, tronco e dois braços">
     <img class="img-forca" src="imagens/6.png" alt="forca com cabeça, tronco e dois braços e uma perna">
     <img class="img-forca" src="imagens/7.png" alt="forca com pessoa morta">
-   
+
     <script src="forca.js"></script>
 </body>
 
